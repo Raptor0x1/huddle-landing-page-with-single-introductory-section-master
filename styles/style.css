@@ -1,0 +1,38 @@
+:root {
+    --violet-color: hsl(257, 40%, 49%);
+    --magneta-color: hsl(300, 69%, 71%);
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    font-size: 1rem;
+    background: blue;
+    color: white;
+}
+
+.container {
+    margin: 0 5%;
+    text-align: center;
+    width: 90%;
+}
+
+.brand-container img {
+    width: 30%;
+}
+
+.content img {
+    width: 90%;
+}
+
+
