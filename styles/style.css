@@ -137,10 +137,10 @@ body {
 
     .icon-link:hover {
         color: var(--magneta-color);
-        .circle {
-            border: 2px solid var(--magneta-color);
-        }
     }
 
+    .icon-link:hover .circle {
+        border: 2px solid var(--magneta-color);
+    }
     
 }
